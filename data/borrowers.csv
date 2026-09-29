@@ -1,0 +1,501 @@
+borrower_id,name,age,occupation,loan_amount,emi_amount,loan_start_date,repayment_frequency,financial_scenario
+1,Aarav Sharma,34,Grocery Store Owner,50000.0,4500.0,2025-01-15,monthly,stable_income
+2,Bhavna Patel,29,Artisan Textile Weaver,30000.0,2800.0,2025-01-15,monthly,temporary_income_decrease
+3,Chirag Verma,42,Independent Delivery Driver,40000.0,3600.0,2025-01-15,monthly,two_consecutive_months_high_stress
+4,Deepika Nair,36,Agricultural Produce Trader,60000.0,5200.0,2025-01-15,monthly,seasonal_income
+5,Eshwar Rao,48,Small Cafeteria Operator,75000.0,6800.0,2025-01-15,monthly,continuous_deterioration
+6,Madhav Kulkarni,30,Hardware Shop Manager,30000,2658.63,2025-01-15,monthly,stable_income
+7,Lalit Verma,26,Supermarket Cashier,50000,4327.93,2025-01-15,monthly,stable_income
+8,Harish Malhotra,28,Government Peon,40000,3546.51,2025-01-15,monthly,stable_income
+9,Pooja Chopra,32,Government Peon,50000,4266.11,2025-01-15,monthly,stable_income
+10,Zainab Malhotra,58,Supermarket Cashier,40000,3423.08,2025-01-15,monthly,stable_income
+11,Sunita Bhat,43,Bank Clerk,80000,7790.08,2025-01-15,monthly,stable_income
+12,Kavita Pillai,52,Pharmacy Assistant,40000,3790.92,2025-01-15,monthly,stable_income
+13,Zainab Iyer,47,Government Peon,80000,7286.09,2025-01-15,monthly,stable_income
+14,Preeti Shetty,29,Government Peon,40000,3456.21,2025-01-15,monthly,stable_income
+15,Farhan Das,50,Supermarket Cashier,80000,7283.3,2025-01-15,monthly,stable_income
+16,Lalit Gupta,35,Pharmacy Assistant,40000,3776.78,2025-01-15,monthly,stable_income
+17,Divya Kapoor,50,Hospital Lab Technician,80000,7412.07,2025-01-15,monthly,stable_income
+18,Ananya Das,54,Pharmacy Assistant,50000,4302.29,2025-01-15,monthly,stable_income
+19,Bina Chopra,56,Pharmacy Assistant,50000,4285.23,2025-01-15,monthly,stable_income
+20,Jyoti Das,22,Hospital Lab Technician,75000,6666.09,2025-01-15,monthly,stable_income
+21,Gita Mishra,27,Post Office Assistant,80000,7501.33,2025-01-15,monthly,stable_income
+22,Sunita Chatterjee,56,Government Peon,25000,2268.56,2025-01-15,monthly,stable_income
+23,Ritu Chauhan,30,Bank Clerk,40000,3569.89,2025-01-15,monthly,stable_income
+24,Amit Verma,51,Hospital Lab Technician,75000,6773.09,2025-01-15,monthly,stable_income
+25,Pooja Rao,58,Supermarket Cashier,25000,2394.69,2025-01-15,monthly,stable_income
+26,Geeta Mehta,50,Bank Clerk,25000,2229.69,2025-01-15,monthly,stable_income
+27,Bina Gowda,49,Primary School Teacher,40000,3712.21,2025-01-15,monthly,stable_income
+28,Farhan Malhotra,25,Government Peon,30000,2844.23,2025-01-15,monthly,stable_income
+29,Vandana Reddy,40,Bank Clerk,50000,4263.56,2025-01-15,monthly,stable_income
+30,Vandana Iyer,31,Pharmacy Assistant,25000,2277.4,2025-01-15,monthly,stable_income
+31,Dinesh Pandey,25,Post Office Assistant,25000,2232.15,2025-01-15,monthly,stable_income
+32,Preeti Malhotra,55,Primary School Teacher,75000,6703.35,2025-01-15,monthly,stable_income
+33,Sunita Verma,32,Hospital Lab Technician,50000,4838.45,2025-01-15,monthly,stable_income
+34,Imran Pandey,56,Primary School Teacher,75000,6877.49,2025-01-15,monthly,stable_income
+35,Sunita Gupta,24,Supermarket Cashier,25000,2227.57,2025-01-15,monthly,stable_income
+36,Chetan Das,25,Bank Clerk,75000,6996.57,2025-01-15,monthly,stable_income
+37,Divya Verma,42,Post Office Assistant,75000,6438.32,2025-01-15,monthly,stable_income
+38,Harish Bhat,31,Hospital Lab Technician,30000,2613.17,2025-01-15,monthly,stable_income
+39,Kavita Kulkarni,48,Pharmacy Assistant,50000,4382.61,2025-01-15,monthly,stable_income
+40,Madhav Sharma,28,Hardware Shop Manager,30000,2894.16,2025-01-15,monthly,stable_income
+41,Kishore Yadav,41,Pharmacy Assistant,80000,6817.3,2025-01-15,monthly,stable_income
+42,Lalit Kulkarni,56,Post Office Assistant,60000,5376.34,2025-01-15,monthly,stable_income
+43,Ritu Joshi,37,Primary School Teacher,75000,7257.55,2025-01-15,monthly,stable_income
+44,Vikram Deshmukh,51,Pharmacy Assistant,30000,2881.91,2025-01-15,monthly,stable_income
+45,Harish Mukherjee,40,Post Office Assistant,60000,5272.26,2025-01-15,monthly,stable_income
+46,Qadir Sengupta,22,Supermarket Cashier,60000,5156.96,2025-01-15,monthly,stable_income
+47,Manish Gowda,29,Primary School Teacher,80000,7486.61,2025-01-15,monthly,stable_income
+48,Kiran Iyer,48,Hardware Shop Manager,30000,2666.96,2025-01-15,monthly,stable_income
+49,Kishore Gupta,47,Supermarket Cashier,60000,5350.86,2025-01-15,monthly,stable_income
+50,Amit Patel,55,Primary School Teacher,80000,7680.57,2025-01-15,monthly,stable_income
+51,Dinesh Sengupta,27,Primary School Teacher,25000,2256.72,2025-01-15,monthly,stable_income
+52,Gita Pillai,27,Post Office Assistant,25000,2156.75,2025-01-15,monthly,stable_income
+53,Usha Chopra,46,Primary School Teacher,40000,3615.18,2025-01-15,monthly,stable_income
+54,Preeti Shetty,53,Supermarket Cashier,40000,3595.55,2025-01-15,monthly,stable_income
+55,Wasim Khan,24,Hardware Shop Manager,80000,7144.86,2025-01-15,monthly,stable_income
+56,Vikram Singh,49,Pharmacy Assistant,30000,2861.12,2025-01-15,monthly,stable_income
+57,Zainab Reddy,30,Hardware Shop Manager,50000,4370.74,2025-01-15,monthly,stable_income
+58,Manish Kulkarni,56,Supermarket Cashier,50000,4316.57,2025-01-15,monthly,stable_income
+59,Pooja Rao,42,Supermarket Cashier,80000,7677.3,2025-01-15,monthly,stable_income
+60,Kavita Kulkarni,51,Primary School Teacher,50000,4381.51,2025-01-15,monthly,stable_income
+61,Jatin Verma,55,Primary School Teacher,60000,5607.02,2025-01-15,monthly,stable_income
+62,Usha Rao,46,Hardware Shop Manager,40000,3684.11,2025-01-15,monthly,stable_income
+63,Lalit Nair,22,Government Peon,75000,6386.07,2025-01-15,monthly,stable_income
+64,Amit Reddy,36,Post Office Assistant,30000,2712.34,2025-01-15,monthly,stable_income
+65,Manish Deshmukh,28,Supermarket Cashier,60000,5866.83,2025-01-15,monthly,stable_income
+66,Ganesh Das,29,Bank Clerk,30000,2864.96,2025-01-15,monthly,stable_income
+67,Harish Patel,51,Primary School Teacher,30000,2910.41,2025-01-15,monthly,stable_income
+68,Hema Bhat,44,Supermarket Cashier,30000,2589.05,2025-01-15,monthly,stable_income
+69,Usha Patel,23,Government Peon,60000,5649.66,2025-01-15,monthly,stable_income
+70,Imran Rao,43,Bank Clerk,30000,2685.26,2025-01-15,monthly,stable_income
+71,Tanvi Malhotra,52,Primary School Teacher,50000,4862.59,2025-01-15,monthly,stable_income
+72,Omkar Sengupta,39,Primary School Teacher,30000,2843.37,2025-01-15,monthly,stable_income
+73,Eshwar Verma,46,Hardware Shop Manager,60000,5354.38,2025-01-15,monthly,stable_income
+74,Gita Chatterjee,28,Supermarket Cashier,30000,2667.19,2025-01-15,monthly,stable_income
+75,Wasim Khan,38,Bank Clerk,40000,3414.27,2025-01-15,monthly,stable_income
+76,Vikram Das,42,Hospital Lab Technician,40000,3741.18,2025-01-15,monthly,stable_income
+77,Amit Verma,36,Post Office Assistant,30000,2840.24,2025-01-15,monthly,stable_income
+78,Tanvi Reddy,49,Hardware Shop Manager,50000,4877.46,2025-01-15,monthly,stable_income
+79,Amit Naidu,24,Hardware Shop Manager,75000,6624.39,2025-01-15,monthly,stable_income
+80,Bina Verma,29,Pharmacy Assistant,30000,2920.28,2025-01-15,monthly,stable_income
+81,Kavita Nair,48,Pharmacy Assistant,80000,7391.7,2025-01-15,monthly,stable_income
+82,Kavita Verma,53,Post Office Assistant,30000,2679.05,2025-01-15,monthly,stable_income
+83,Vandana Naidu,40,Post Office Assistant,75000,6478.66,2025-01-15,monthly,stable_income
+84,Bharat Pandey,37,Hospital Lab Technician,50000,4876.34,2025-01-15,monthly,stable_income
+85,Ramesh Naidu,32,Hospital Lab Technician,75000,6619.3,2025-01-15,monthly,stable_income
+86,Dinesh Verma,33,Government Peon,75000,6876.0,2025-01-15,monthly,stable_income
+87,Divya Joshi,37,Primary School Teacher,75000,7238.52,2025-01-15,monthly,stable_income
+88,Eshwar Yadav,36,Hospital Lab Technician,50000,4502.22,2025-01-15,monthly,stable_income
+89,Madhav Singh,27,Hospital Lab Technician,30000,2841.84,2025-01-15,monthly,stable_income
+90,Omkar Shetty,49,Hospital Lab Technician,80000,7173.87,2025-01-15,monthly,stable_income
+91,Tanvi Chatterjee,32,Government Peon,50000,4353.49,2025-01-15,monthly,stable_income
+92,Aarav Bhat,30,Pharmacy Assistant,30000,2639.7,2025-01-15,monthly,stable_income
+93,Ritu Sengupta,33,Hospital Lab Technician,30000,2832.43,2025-01-15,monthly,stable_income
+94,Hema Gowda,36,Bank Clerk,40000,3711.11,2025-01-15,monthly,stable_income
+95,Neelam Pandey,25,Government Peon,50000,4876.97,2025-01-15,monthly,stable_income
+96,Eshwar Kapoor,27,Hospital Lab Technician,75000,7184.02,2025-01-15,monthly,stable_income
+97,Qadir Joshi,40,Bank Clerk,50000,4687.9,2025-01-15,monthly,stable_income
+98,Deepika Bhat,49,Pharmacy Assistant,60000,5125.4,2025-01-15,monthly,stable_income
+99,Indira Malhotra,55,Post Office Assistant,80000,7306.09,2025-01-15,monthly,stable_income
+100,Farhan Khan,43,Supermarket Cashier,40000,3564.78,2025-01-15,monthly,stable_income
+101,Usha Chopra,52,Pharmacy Assistant,80000,7362.21,2025-01-15,monthly,stable_income
+102,Zainab Sengupta,46,Supermarket Cashier,40000,3441.19,2025-01-15,monthly,stable_income
+103,Ananya Verma,56,Pharmacy Assistant,30000,2624.95,2025-01-15,monthly,stable_income
+104,Suresh Rao,45,Bank Clerk,30000,2611.5,2025-01-15,monthly,stable_income
+105,Vandana Bhat,46,Government Peon,25000,2326.41,2025-01-15,monthly,stable_income
+106,Bharat Sengupta,45,Primary School Teacher,80000,7441.61,2025-01-15,monthly,stable_income
+107,Zainab Gowda,57,Hospital Lab Technician,40000,3900.06,2025-01-15,monthly,stable_income
+108,Manish Naidu,58,Hardware Shop Manager,25000,2378.54,2025-01-15,monthly,stable_income
+109,Ananya Mukherjee,58,Supermarket Cashier,60000,5580.48,2025-01-15,monthly,stable_income
+110,Kiran Gowda,38,Pharmacy Assistant,60000,5669.34,2025-01-15,monthly,stable_income
+111,Wasim Chauhan,41,Supermarket Cashier,60000,5315.19,2025-01-15,monthly,stable_income
+112,Manish Nair,33,Post Office Assistant,80000,7714.82,2025-01-15,monthly,stable_income
+113,Eshwar Khan,50,Pharmacy Assistant,75000,6691.77,2025-01-15,monthly,stable_income
+114,Sanjay Yadav,56,Government Peon,50000,4518.81,2025-01-15,monthly,stable_income
+115,Qadir Sharma,51,Pharmacy Assistant,80000,7318.59,2025-01-15,monthly,stable_income
+116,Ramesh Reddy,57,Bank Clerk,40000,3644.82,2025-01-15,monthly,stable_income
+117,Vandana Gupta,22,Supermarket Cashier,75000,6649.59,2025-01-15,monthly,stable_income
+118,Vandana Singh,32,Hardware Shop Manager,30000,2782.12,2025-01-15,monthly,stable_income
+119,Farhan Iyer,51,Primary School Teacher,25000,2294.19,2025-01-15,monthly,stable_income
+120,Tushar Iyer,34,Bank Clerk,80000,7595.01,2025-01-15,monthly,stable_income
+121,Hema Mishra,26,Freelance Graphic Designer,30000,2867.43,2025-01-15,monthly,temporary_income_decrease
+122,Chetan Shetty,44,Artisan Textile Weaver,60000,5106.33,2025-01-15,monthly,temporary_income_decrease
+123,Chetan Pandey,33,Boutique Tailor,60000,5430.82,2025-01-15,monthly,temporary_income_decrease
+124,Chirag Shetty,41,Pottery Maker,80000,7386.25,2025-01-15,monthly,temporary_income_decrease
+125,Qadir Gowda,29,Artisan Textile Weaver,30000,2730.97,2025-01-15,monthly,temporary_income_decrease
+126,Geeta Chatterjee,50,Freelance Graphic Designer,30000,2832.85,2025-01-15,monthly,temporary_income_decrease
+127,Geeta Rao,56,Boutique Tailor,30000,2789.45,2025-01-15,monthly,temporary_income_decrease
+128,Sunita Mukherjee,34,Handicraft Sculptor,60000,5130.68,2025-01-15,monthly,temporary_income_decrease
+129,Aarav Khan,25,Freelance Graphic Designer,80000,7625.44,2025-01-15,monthly,temporary_income_decrease
+130,Bharat Shetty,52,Pottery Maker,30000,2630.4,2025-01-15,monthly,temporary_income_decrease
+131,Bhavna Mehta,54,Artisan Textile Weaver,25000,2415.9,2025-01-15,monthly,temporary_income_decrease
+132,Omkar Verma,48,Jewelry Goldsmith,50000,4810.43,2025-01-15,monthly,temporary_income_decrease
+133,Kishore Mishra,33,Freelance Graphic Designer,75000,6827.69,2025-01-15,monthly,temporary_income_decrease
+134,Eshwar Chauhan,44,Boutique Tailor,50000,4575.94,2025-01-15,monthly,temporary_income_decrease
+135,Usha Mehta,55,Jewelry Goldsmith,50000,4547.7,2025-01-15,monthly,temporary_income_decrease
+136,Madhav Bhat,43,Pottery Maker,75000,6663.17,2025-01-15,monthly,temporary_income_decrease
+137,Wasim Chauhan,41,Boutique Tailor,80000,7383.47,2025-01-15,monthly,temporary_income_decrease
+138,Hema Nair,40,Boutique Tailor,30000,2741.84,2025-01-15,monthly,temporary_income_decrease
+139,Gita Shetty,45,Artisan Textile Weaver,60000,5552.44,2025-01-15,monthly,temporary_income_decrease
+140,Ramesh Naidu,29,Artisan Textile Weaver,25000,2376.78,2025-01-15,monthly,temporary_income_decrease
+141,Divya Chatterjee,28,Handicraft Sculptor,80000,7169.02,2025-01-15,monthly,temporary_income_decrease
+142,Yash Gupta,43,Handicraft Sculptor,60000,5758.34,2025-01-15,monthly,temporary_income_decrease
+143,Madhav Singh,23,Artisan Textile Weaver,50000,4822.08,2025-01-15,monthly,temporary_income_decrease
+144,Pooja Joshi,37,Pottery Maker,40000,3708.12,2025-01-15,monthly,temporary_income_decrease
+145,Eshwar Yadav,55,Boutique Tailor,50000,4386.33,2025-01-15,monthly,temporary_income_decrease
+146,Dinesh Pandey,37,Boutique Tailor,30000,2594.29,2025-01-15,monthly,temporary_income_decrease
+147,Usha Iyer,46,Pottery Maker,75000,6605.04,2025-01-15,monthly,temporary_income_decrease
+148,Farhan Kapoor,37,Freelance Graphic Designer,30000,2885.17,2025-01-15,monthly,temporary_income_decrease
+149,Usha Kulkarni,52,Pottery Maker,30000,2651.67,2025-01-15,monthly,temporary_income_decrease
+150,Naveen Sengupta,40,Pottery Maker,75000,6559.63,2025-01-15,monthly,temporary_income_decrease
+151,Ganesh Rao,27,Freelance Graphic Designer,75000,6892.16,2025-01-15,monthly,temporary_income_decrease
+152,Sunita Khan,32,Pottery Maker,60000,5741.61,2025-01-15,monthly,temporary_income_decrease
+153,Farhan Mishra,38,Handicraft Sculptor,30000,2926.37,2025-01-15,monthly,temporary_income_decrease
+154,Tushar Rao,30,Pottery Maker,40000,3837.6,2025-01-15,monthly,temporary_income_decrease
+155,Ananya Chopra,53,Freelance Graphic Designer,60000,5734.24,2025-01-15,monthly,temporary_income_decrease
+156,Neelam Deshmukh,24,Boutique Tailor,50000,4565.97,2025-01-15,monthly,temporary_income_decrease
+157,Farhan Chatterjee,52,Handicraft Sculptor,30000,2627.8,2025-01-15,monthly,temporary_income_decrease
+158,Jyoti Nair,32,Pottery Maker,25000,2408.03,2025-01-15,monthly,temporary_income_decrease
+159,Sanjay Khan,49,Artisan Textile Weaver,50000,4743.48,2025-01-15,monthly,temporary_income_decrease
+160,Ramesh Mukherjee,32,Artisan Textile Weaver,25000,2414.35,2025-01-15,monthly,temporary_income_decrease
+161,Ritu Singh,55,Boutique Tailor,80000,7074.24,2025-01-15,monthly,temporary_income_decrease
+162,Eshwar Chopra,24,Boutique Tailor,50000,4622.49,2025-01-15,monthly,temporary_income_decrease
+163,Lalit Sharma,39,Handicraft Sculptor,30000,2873.58,2025-01-15,monthly,temporary_income_decrease
+164,Usha Kulkarni,57,Boutique Tailor,25000,2282.36,2025-01-15,monthly,temporary_income_decrease
+165,Gita Nair,30,Pottery Maker,60000,5879.08,2025-01-15,monthly,temporary_income_decrease
+166,Harish Kulkarni,45,Handicraft Sculptor,50000,4256.09,2025-01-15,monthly,temporary_income_decrease
+167,Neelam Malhotra,51,Artisan Textile Weaver,50000,4666.63,2025-01-15,monthly,temporary_income_decrease
+168,Eshwar Gowda,50,Artisan Textile Weaver,75000,6810.29,2025-01-15,monthly,temporary_income_decrease
+169,Bharat Mehta,50,Handicraft Sculptor,30000,2603.69,2025-01-15,monthly,temporary_income_decrease
+170,Omkar Kulkarni,35,Handicraft Sculptor,50000,4727.48,2025-01-15,monthly,temporary_income_decrease
+171,Eshwar Nair,31,Handicraft Sculptor,80000,6997.23,2025-01-15,monthly,temporary_income_decrease
+172,Pooja Mishra,35,Freelance Graphic Designer,50000,4827.66,2025-01-15,monthly,temporary_income_decrease
+173,Kishore Pillai,56,Freelance Graphic Designer,25000,2375.27,2025-01-15,monthly,temporary_income_decrease
+174,Ritu Sharma,58,Artisan Textile Weaver,30000,2609.94,2025-01-15,monthly,temporary_income_decrease
+175,Naveen Deshmukh,49,Pottery Maker,75000,6837.91,2025-01-15,monthly,temporary_income_decrease
+176,Manish Pillai,35,Boutique Tailor,50000,4895.05,2025-01-15,monthly,temporary_income_decrease
+177,Lalit Gupta,24,Pottery Maker,60000,5268.61,2025-01-15,monthly,temporary_income_decrease
+178,Aarav Mishra,35,Boutique Tailor,30000,2575.75,2025-01-15,monthly,temporary_income_decrease
+179,Yash Mehta,40,Handicraft Sculptor,30000,2696.54,2025-01-15,monthly,temporary_income_decrease
+180,Meera Joshi,49,Handicraft Sculptor,60000,5294.2,2025-01-15,monthly,temporary_income_decrease
+181,Eshwar Reddy,24,Artisan Textile Weaver,50000,4855.88,2025-01-15,monthly,temporary_income_decrease
+182,Zainab Yadav,41,Pottery Maker,50000,4739.1,2025-01-15,monthly,temporary_income_decrease
+183,Vikram Sharma,37,Boutique Tailor,50000,4687.32,2025-01-15,monthly,temporary_income_decrease
+184,Bharat Chatterjee,34,Artisan Textile Weaver,75000,7308.61,2025-01-15,monthly,temporary_income_decrease
+185,Bhavna Khan,42,Boutique Tailor,80000,7091.57,2025-01-15,monthly,temporary_income_decrease
+186,Kiran Chatterjee,36,Artisan Textile Weaver,50000,4255.97,2025-01-15,monthly,temporary_income_decrease
+187,Wasim Gowda,47,Boutique Tailor,25000,2296.55,2025-01-15,monthly,temporary_income_decrease
+188,Pooja Mishra,53,Freelance Graphic Designer,75000,6956.25,2025-01-15,monthly,temporary_income_decrease
+189,Amit Nair,35,Pottery Maker,25000,2183.72,2025-01-15,monthly,temporary_income_decrease
+190,Qadir Das,46,Pottery Maker,30000,2706.02,2025-01-15,monthly,temporary_income_decrease
+191,Imran Nair,55,Mini-truck Transporter,75000,6932.85,2025-01-15,monthly,two_consecutive_months_high_stress
+192,Farhan Mukherjee,27,Independent Delivery Driver,75000,6609.04,2025-01-15,monthly,two_consecutive_months_high_stress
+193,Harish Iyer,37,Appliance Service Electrician,80000,7597.07,2025-01-15,monthly,two_consecutive_months_high_stress
+194,Divya Khan,30,Mini-truck Transporter,75000,6798.11,2025-01-15,monthly,two_consecutive_months_high_stress
+195,Pooja Das,29,Mini-truck Transporter,75000,6616.17,2025-01-15,monthly,two_consecutive_months_high_stress
+196,Lalit Das,53,Mini-truck Transporter,40000,3558.27,2025-01-15,monthly,two_consecutive_months_high_stress
+197,Harish Kapoor,49,Independent Delivery Driver,50000,4522.35,2025-01-15,monthly,two_consecutive_months_high_stress
+198,Indira Das,25,Shared Auto Driver,80000,7018.37,2025-01-15,monthly,two_consecutive_months_high_stress
+199,Imran Khan,51,Shared Auto Driver,80000,7696.85,2025-01-15,monthly,two_consecutive_months_high_stress
+200,Tushar Iyer,52,Shared Auto Driver,30000,2571.79,2025-01-15,monthly,two_consecutive_months_high_stress
+201,Rajesh Kapoor,53,Mini-truck Transporter,40000,3821.57,2025-01-15,monthly,two_consecutive_months_high_stress
+202,Aarav Gupta,23,Mini-truck Transporter,60000,5469.66,2025-01-15,monthly,two_consecutive_months_high_stress
+203,Gita Sharma,40,Independent Delivery Driver,30000,2573.4,2025-01-15,monthly,two_consecutive_months_high_stress
+204,Madhav Nair,26,Shared Auto Driver,60000,5108.56,2025-01-15,monthly,two_consecutive_months_high_stress
+205,Sanjay Shetty,32,Appliance Service Electrician,60000,5873.98,2025-01-15,monthly,two_consecutive_months_high_stress
+206,Sunita Mishra,48,Appliance Service Electrician,75000,6500.76,2025-01-15,monthly,two_consecutive_months_high_stress
+207,Madhav Rao,52,Shared Auto Driver,75000,6583.13,2025-01-15,monthly,two_consecutive_months_high_stress
+208,Bina Yadav,31,Mini-truck Transporter,75000,7336.71,2025-01-15,monthly,two_consecutive_months_high_stress
+209,Kiran Gowda,43,Independent Delivery Driver,30000,2728.94,2025-01-15,monthly,two_consecutive_months_high_stress
+210,Omkar Bhat,40,Mini-truck Transporter,75000,6632.89,2025-01-15,monthly,two_consecutive_months_high_stress
+211,Chetan Sharma,31,Independent Delivery Driver,60000,5651.91,2025-01-15,monthly,two_consecutive_months_high_stress
+212,Divya Naidu,32,Shared Auto Driver,40000,3405.27,2025-01-15,monthly,two_consecutive_months_high_stress
+213,Sanjay Yadav,41,Shared Auto Driver,80000,7014.07,2025-01-15,monthly,two_consecutive_months_high_stress
+214,Geeta Singh,39,Appliance Service Electrician,80000,7694.31,2025-01-15,monthly,two_consecutive_months_high_stress
+215,Harish Sengupta,45,Appliance Service Electrician,25000,2134.52,2025-01-15,monthly,two_consecutive_months_high_stress
+216,Farhan Das,40,Independent Delivery Driver,40000,3690.43,2025-01-15,monthly,two_consecutive_months_high_stress
+217,Bina Bhat,50,Mini-truck Transporter,40000,3461.53,2025-01-15,monthly,two_consecutive_months_high_stress
+218,Geeta Khan,54,Appliance Service Electrician,50000,4730.41,2025-01-15,monthly,two_consecutive_months_high_stress
+219,Kiran Gowda,52,Independent Delivery Driver,40000,3756.61,2025-01-15,monthly,two_consecutive_months_high_stress
+220,Ganesh Chatterjee,31,Appliance Service Electrician,40000,3724.37,2025-01-15,monthly,two_consecutive_months_high_stress
+221,Indira Chatterjee,34,Mini-truck Transporter,30000,2712.36,2025-01-15,monthly,two_consecutive_months_high_stress
+222,Geeta Iyer,28,Mini-truck Transporter,60000,5475.54,2025-01-15,monthly,two_consecutive_months_high_stress
+223,Lalit Rao,37,Shared Auto Driver,60000,5678.5,2025-01-15,monthly,two_consecutive_months_high_stress
+224,Ramesh Chatterjee,41,Mobile Phone Repairer,25000,2422.75,2025-01-15,monthly,two_consecutive_months_high_stress
+225,Pankaj Singh,34,Shared Auto Driver,40000,3655.37,2025-01-15,monthly,two_consecutive_months_high_stress
+226,Sunita Kapoor,38,Mobile Phone Repairer,75000,6723.96,2025-01-15,monthly,two_consecutive_months_high_stress
+227,Chirag Mehta,54,Shared Auto Driver,75000,6716.5,2025-01-15,monthly,two_consecutive_months_high_stress
+228,Suresh Mukherjee,37,Mini-truck Transporter,30000,2786.39,2025-01-15,monthly,two_consecutive_months_high_stress
+229,Tushar Sengupta,27,Independent Delivery Driver,40000,3844.38,2025-01-15,monthly,two_consecutive_months_high_stress
+230,Aarav Das,39,Independent Delivery Driver,30000,2850.82,2025-01-15,monthly,two_consecutive_months_high_stress
+231,Neelam Shetty,36,Independent Delivery Driver,75000,7342.17,2025-01-15,monthly,two_consecutive_months_high_stress
+232,Manish Rao,46,Independent Delivery Driver,25000,2436.55,2025-01-15,monthly,two_consecutive_months_high_stress
+233,Qadir Naidu,40,Mini-truck Transporter,40000,3461.34,2025-01-15,monthly,two_consecutive_months_high_stress
+234,Gita Rao,33,Appliance Service Electrician,80000,7774.09,2025-01-15,monthly,two_consecutive_months_high_stress
+235,Jatin Nair,35,Appliance Service Electrician,80000,7329.05,2025-01-15,monthly,two_consecutive_months_high_stress
+236,Kiran Iyer,34,Appliance Service Electrician,75000,7191.69,2025-01-15,monthly,two_consecutive_months_high_stress
+237,Ramesh Gowda,40,Mobile Phone Repairer,50000,4461.51,2025-01-15,monthly,two_consecutive_months_high_stress
+238,Zainab Verma,43,Mini-truck Transporter,80000,7596.65,2025-01-15,monthly,two_consecutive_months_high_stress
+239,Geeta Pillai,47,Shared Auto Driver,80000,7429.92,2025-01-15,monthly,two_consecutive_months_high_stress
+240,Manish Sengupta,58,Shared Auto Driver,25000,2374.41,2025-01-15,monthly,two_consecutive_months_high_stress
+241,Dinesh Das,55,Mini-truck Transporter,60000,5793.85,2025-01-15,monthly,two_consecutive_months_high_stress
+242,Ananya Kapoor,38,Appliance Service Electrician,60000,5600.45,2025-01-15,monthly,two_consecutive_months_high_stress
+243,Farhan Malhotra,35,Shared Auto Driver,75000,7187.76,2025-01-15,monthly,two_consecutive_months_high_stress
+244,Kishore Kapoor,52,Appliance Service Electrician,75000,6818.12,2025-01-15,monthly,two_consecutive_months_high_stress
+245,Suresh Gupta,54,Mobile Phone Repairer,30000,2797.77,2025-01-15,monthly,two_consecutive_months_high_stress
+246,Ritu Chauhan,44,Appliance Service Electrician,50000,4789.18,2025-01-15,monthly,two_consecutive_months_high_stress
+247,Lalit Gowda,23,Mobile Phone Repairer,80000,7441.28,2025-01-15,monthly,two_consecutive_months_high_stress
+248,Lalit Joshi,35,Mobile Phone Repairer,25000,2360.34,2025-01-15,monthly,two_consecutive_months_high_stress
+249,Chetan Verma,43,Mobile Phone Repairer,75000,6550.38,2025-01-15,monthly,two_consecutive_months_high_stress
+250,Aarav Iyer,38,Shared Auto Driver,60000,5734.01,2025-01-15,monthly,two_consecutive_months_high_stress
+251,Suresh Pillai,28,Tourist Guide & Cab Driver,60000,5864.61,2025-01-15,monthly,seasonal_income
+252,Sunita Pillai,51,Festive Clay Idol Maker,50000,4662.6,2025-01-15,monthly,seasonal_income
+253,Harish Yadav,40,Mango Orchard Cultivator,80000,6965.48,2025-01-15,monthly,seasonal_income
+254,Pankaj Mukherjee,52,Grain Wholesaler,25000,2434.35,2025-01-15,monthly,seasonal_income
+255,Madhav Shetty,23,Tourist Guide & Cab Driver,50000,4788.04,2025-01-15,monthly,seasonal_income
+256,Vandana Deshmukh,52,Grain Wholesaler,50000,4687.63,2025-01-15,monthly,seasonal_income
+257,Kiran Malhotra,36,Grain Wholesaler,30000,2691.79,2025-01-15,monthly,seasonal_income
+258,Naveen Pandey,53,Cotton Farmer,60000,5107.49,2025-01-15,monthly,seasonal_income
+259,Usha Gowda,55,Tourist Guide & Cab Driver,25000,2347.54,2025-01-15,monthly,seasonal_income
+260,Zainab Iyer,57,Festive Clay Idol Maker,75000,6569.47,2025-01-15,monthly,seasonal_income
+261,Preeti Iyer,45,Tourist Guide & Cab Driver,75000,7237.47,2025-01-15,monthly,seasonal_income
+262,Preeti Rao,43,Agricultural Produce Trader,30000,2802.66,2025-01-15,monthly,seasonal_income
+263,Divya Nair,46,Agricultural Produce Trader,50000,4813.9,2025-01-15,monthly,seasonal_income
+264,Amit Malhotra,42,Agricultural Produce Trader,30000,2880.49,2025-01-15,monthly,seasonal_income
+265,Harish Mehta,51,Tourist Guide & Cab Driver,80000,7734.07,2025-01-15,monthly,seasonal_income
+266,Deepika Naidu,34,Mango Orchard Cultivator,25000,2171.46,2025-01-15,monthly,seasonal_income
+267,Jyoti Khan,47,Festive Clay Idol Maker,30000,2605.27,2025-01-15,monthly,seasonal_income
+268,Jatin Mehta,32,Mango Orchard Cultivator,50000,4761.1,2025-01-15,monthly,seasonal_income
+269,Manish Pandey,45,Mango Orchard Cultivator,80000,7683.96,2025-01-15,monthly,seasonal_income
+270,Divya Chopra,51,Festive Clay Idol Maker,80000,7343.68,2025-01-15,monthly,seasonal_income
+271,Tanvi Mehta,33,Tourist Guide & Cab Driver,30000,2653.23,2025-01-15,monthly,seasonal_income
+272,Omkar Kulkarni,35,Mango Orchard Cultivator,25000,2221.46,2025-01-15,monthly,seasonal_income
+273,Deepika Kulkarni,50,Tourist Guide & Cab Driver,60000,5440.22,2025-01-15,monthly,seasonal_income
+274,Suresh Gowda,33,Mango Orchard Cultivator,25000,2336.06,2025-01-15,monthly,seasonal_income
+275,Geeta Chopra,31,Festive Clay Idol Maker,40000,3698.47,2025-01-15,monthly,seasonal_income
+276,Kiran Yadav,58,Grain Wholesaler,60000,5506.9,2025-01-15,monthly,seasonal_income
+277,Lalit Malhotra,36,Grain Wholesaler,40000,3437.94,2025-01-15,monthly,seasonal_income
+278,Eshwar Mukherjee,29,Agricultural Produce Trader,30000,2901.86,2025-01-15,monthly,seasonal_income
+279,Lalit Chauhan,51,Mango Orchard Cultivator,75000,6430.02,2025-01-15,monthly,seasonal_income
+280,Qadir Chauhan,51,Tourist Guide & Cab Driver,30000,2727.15,2025-01-15,monthly,seasonal_income
+281,Amit Kulkarni,41,Festive Clay Idol Maker,50000,4283.08,2025-01-15,monthly,seasonal_income
+282,Divya Mehta,43,Grain Wholesaler,30000,2663.0,2025-01-15,monthly,seasonal_income
+283,Sunita Shetty,27,Cotton Farmer,60000,5867.19,2025-01-15,monthly,seasonal_income
+284,Imran Deshmukh,39,Agricultural Produce Trader,50000,4847.2,2025-01-15,monthly,seasonal_income
+285,Imran Pandey,33,Tourist Guide & Cab Driver,40000,3780.41,2025-01-15,monthly,seasonal_income
+286,Yash Shetty,26,Festive Clay Idol Maker,40000,3778.12,2025-01-15,monthly,seasonal_income
+287,Suresh Pillai,53,Tourist Guide & Cab Driver,50000,4865.77,2025-01-15,monthly,seasonal_income
+288,Pankaj Kapoor,36,Grain Wholesaler,60000,5575.32,2025-01-15,monthly,seasonal_income
+289,Aarav Deshmukh,38,Mango Orchard Cultivator,30000,2665.48,2025-01-15,monthly,seasonal_income
+290,Kishore Joshi,27,Cotton Farmer,40000,3575.84,2025-01-15,monthly,seasonal_income
+291,Kavita Mishra,35,Mango Orchard Cultivator,60000,5105.73,2025-01-15,monthly,seasonal_income
+292,Manish Iyer,51,Tourist Guide & Cab Driver,60000,5688.01,2025-01-15,monthly,seasonal_income
+293,Ritu Shetty,57,Cotton Farmer,40000,3411.73,2025-01-15,monthly,seasonal_income
+294,Preeti Mukherjee,44,Tourist Guide & Cab Driver,30000,2776.28,2025-01-15,monthly,seasonal_income
+295,Vikram Mehta,29,Cotton Farmer,75000,7190.56,2025-01-15,monthly,seasonal_income
+296,Chetan Pandey,52,Grain Wholesaler,60000,5562.8,2025-01-15,monthly,seasonal_income
+297,Pankaj Mishra,56,Grain Wholesaler,75000,6422.5,2025-01-15,monthly,seasonal_income
+298,Gita Reddy,26,Agricultural Produce Trader,25000,2210.4,2025-01-15,monthly,seasonal_income
+299,Eshwar Rao,30,Festive Clay Idol Maker,30000,2885.86,2025-01-15,monthly,seasonal_income
+300,Vikram Deshmukh,56,Festive Clay Idol Maker,40000,3878.05,2025-01-15,monthly,seasonal_income
+301,Ganesh Yadav,55,Mango Orchard Cultivator,25000,2360.49,2025-01-15,monthly,seasonal_income
+302,Neelam Singh,39,Mango Orchard Cultivator,80000,6899.73,2025-01-15,monthly,seasonal_income
+303,Divya Gupta,36,Agricultural Produce Trader,80000,6885.28,2025-01-15,monthly,seasonal_income
+304,Chetan Verma,49,Cotton Farmer,40000,3518.85,2025-01-15,monthly,seasonal_income
+305,Sanjay Nair,39,Mango Orchard Cultivator,60000,5196.83,2025-01-15,monthly,seasonal_income
+306,Ananya Gowda,38,Festive Clay Idol Maker,50000,4358.48,2025-01-15,monthly,seasonal_income
+307,Jyoti Singh,52,Agricultural Produce Trader,80000,7681.06,2025-01-15,monthly,seasonal_income
+308,Aarav Rao,34,Tourist Guide & Cab Driver,60000,5251.06,2025-01-15,monthly,seasonal_income
+309,Ananya Patel,41,Cotton Farmer,25000,2392.82,2025-01-15,monthly,seasonal_income
+310,Jatin Singh,49,Tourist Guide & Cab Driver,25000,2428.67,2025-01-15,monthly,seasonal_income
+311,Divya Chauhan,54,Cotton Farmer,40000,3739.81,2025-01-15,monthly,seasonal_income
+312,Usha Pillai,49,Grain Wholesaler,40000,3898.19,2025-01-15,monthly,seasonal_income
+313,Ramesh Kulkarni,24,Cotton Farmer,40000,3409.32,2025-01-15,monthly,seasonal_income
+314,Zainab Singh,43,Mango Orchard Cultivator,60000,5611.76,2025-01-15,monthly,seasonal_income
+315,Meera Singh,38,Grain Wholesaler,25000,2421.05,2025-01-15,monthly,seasonal_income
+316,Farhan Rao,28,Festive Clay Idol Maker,60000,5537.9,2025-01-15,monthly,seasonal_income
+317,Naveen Yadav,27,Mango Orchard Cultivator,25000,2214.87,2025-01-15,monthly,seasonal_income
+318,Jyoti Joshi,48,Agricultural Produce Trader,75000,6884.9,2025-01-15,monthly,seasonal_income
+319,Gita Sharma,48,Agricultural Produce Trader,40000,3507.29,2025-01-15,monthly,seasonal_income
+320,Hema Joshi,50,Mango Orchard Cultivator,25000,2378.83,2025-01-15,monthly,seasonal_income
+321,Bina Sengupta,58,Local DVD & Repair Rental Shop,40000,3449.97,2025-01-15,monthly,continuous_deterioration
+322,Amit Yadav,50,Traditional Bookstore Owner,25000,2235.76,2025-01-15,monthly,continuous_deterioration
+323,Lalit Sengupta,32,Traditional Bookstore Owner,75000,6419.07,2025-01-15,monthly,continuous_deterioration
+324,Ritu Malhotra,43,Video Game Parlor Operator,30000,2873.22,2025-01-15,monthly,continuous_deterioration
+325,Indira Joshi,25,Local DVD & Repair Rental Shop,80000,7431.18,2025-01-15,monthly,continuous_deterioration
+326,Ramesh Pillai,27,Small Cafeteria Operator,75000,6560.66,2025-01-15,monthly,continuous_deterioration
+327,Ganesh Sharma,24,Local DVD & Repair Rental Shop,25000,2125.91,2025-01-15,monthly,continuous_deterioration
+328,Lalit Rao,26,Small Cafeteria Operator,40000,3817.04,2025-01-15,monthly,continuous_deterioration
+329,Bhavna Joshi,48,Traditional Bookstore Owner,40000,3775.57,2025-01-15,monthly,continuous_deterioration
+330,Yash Joshi,57,Local DVD & Repair Rental Shop,60000,5239.19,2025-01-15,monthly,continuous_deterioration
+331,Imran Gupta,30,Video Game Parlor Operator,75000,6689.94,2025-01-15,monthly,continuous_deterioration
+332,Qadir Pillai,40,Local DVD & Repair Rental Shop,25000,2437.12,2025-01-15,monthly,continuous_deterioration
+333,Farhan Das,24,Typewriting & Photocopy Shop,30000,2752.68,2025-01-15,monthly,continuous_deterioration
+334,Sanjay Gupta,38,Typewriting & Photocopy Shop,40000,3427.07,2025-01-15,monthly,continuous_deterioration
+335,Deepika Nair,45,Video Game Parlor Operator,75000,7051.62,2025-01-15,monthly,continuous_deterioration
+336,Tushar Yadav,34,Traditional Bookstore Owner,30000,2592.26,2025-01-15,monthly,continuous_deterioration
+337,Aarav Malhotra,44,Video Game Parlor Operator,75000,6489.86,2025-01-15,monthly,continuous_deterioration
+338,Sanjay Das,47,Local DVD & Repair Rental Shop,30000,2643.83,2025-01-15,monthly,continuous_deterioration
+339,Preeti Iyer,25,Video Game Parlor Operator,50000,4752.88,2025-01-15,monthly,continuous_deterioration
+340,Sanjay Gowda,38,Small Cafeteria Operator,50000,4858.77,2025-01-15,monthly,continuous_deterioration
+341,Naveen Kulkarni,26,Local DVD & Repair Rental Shop,40000,3559.69,2025-01-15,monthly,continuous_deterioration
+342,Vandana Gupta,38,Local DVD & Repair Rental Shop,50000,4361.55,2025-01-15,monthly,continuous_deterioration
+343,Aarav Chauhan,22,Video Game Parlor Operator,60000,5212.03,2025-01-15,monthly,continuous_deterioration
+344,Bhavna Khan,30,Small Cafeteria Operator,80000,7144.12,2025-01-15,monthly,continuous_deterioration
+345,Bhavna Kapoor,50,Typewriting & Photocopy Shop,50000,4757.16,2025-01-15,monthly,continuous_deterioration
+346,Dinesh Kulkarni,58,Small Cafeteria Operator,25000,2343.73,2025-01-15,monthly,continuous_deterioration
+347,Zainab Khan,58,Traditional Bookstore Owner,50000,4864.94,2025-01-15,monthly,continuous_deterioration
+348,Hema Pandey,52,Traditional Bookstore Owner,25000,2189.72,2025-01-15,monthly,continuous_deterioration
+349,Lalit Kulkarni,46,Local DVD & Repair Rental Shop,60000,5839.42,2025-01-15,monthly,continuous_deterioration
+350,Manish Yadav,49,Typewriting & Photocopy Shop,80000,7701.47,2025-01-15,monthly,continuous_deterioration
+351,Neelam Pillai,33,Small Cafeteria Operator,40000,3557.7,2025-01-15,monthly,continuous_deterioration
+352,Amit Sharma,41,Local DVD & Repair Rental Shop,25000,2144.17,2025-01-15,monthly,continuous_deterioration
+353,Ananya Patel,57,Traditional Bookstore Owner,75000,6803.55,2025-01-15,monthly,continuous_deterioration
+354,Naveen Iyer,57,Typewriting & Photocopy Shop,40000,3617.3,2025-01-15,monthly,continuous_deterioration
+355,Kiran Joshi,30,Traditional Bookstore Owner,25000,2389.0,2025-01-15,monthly,continuous_deterioration
+356,Pankaj Chopra,58,Typewriting & Photocopy Shop,25000,2274.57,2025-01-15,monthly,continuous_deterioration
+357,Harish Chopra,51,Video Game Parlor Operator,50000,4739.23,2025-01-15,monthly,continuous_deterioration
+358,Sunita Sharma,57,Video Game Parlor Operator,75000,6886.7,2025-01-15,monthly,continuous_deterioration
+359,Ramesh Kapoor,30,Traditional Bookstore Owner,80000,6828.12,2025-01-15,monthly,continuous_deterioration
+360,Harish Sharma,45,Video Game Parlor Operator,50000,4616.88,2025-01-15,monthly,continuous_deterioration
+361,Imran Khan,49,Local DVD & Repair Rental Shop,25000,2301.92,2025-01-15,monthly,continuous_deterioration
+362,Divya Reddy,49,Local DVD & Repair Rental Shop,40000,3658.01,2025-01-15,monthly,continuous_deterioration
+363,Bina Kulkarni,29,Typewriting & Photocopy Shop,25000,2131.39,2025-01-15,monthly,continuous_deterioration
+364,Zainab Pandey,57,Typewriting & Photocopy Shop,25000,2258.54,2025-01-15,monthly,continuous_deterioration
+365,Farhan Reddy,25,Traditional Bookstore Owner,75000,7023.72,2025-01-15,monthly,continuous_deterioration
+366,Ramesh Nair,50,Typewriting & Photocopy Shop,60000,5500.25,2025-01-15,monthly,continuous_deterioration
+367,Bina Mukherjee,25,Typewriting & Photocopy Shop,25000,2316.37,2025-01-15,monthly,continuous_deterioration
+368,Bhavna Das,50,Local DVD & Repair Rental Shop,40000,3478.88,2025-01-15,monthly,continuous_deterioration
+369,Naveen Sengupta,29,Local DVD & Repair Rental Shop,80000,7833.99,2025-01-15,monthly,continuous_deterioration
+370,Meera Shetty,40,Typewriting & Photocopy Shop,25000,2381.0,2025-01-15,monthly,continuous_deterioration
+371,Tanvi Naidu,37,Tea Stall Franchise Owner,50000,4702.71,2025-01-15,monthly,increasing_expenses
+372,Omkar Sengupta,56,Tea Stall Franchise Owner,80000,7210.68,2025-01-15,monthly,increasing_expenses
+373,Usha Naidu,49,Laundry Dry-cleaner,30000,2555.6,2025-01-15,monthly,increasing_expenses
+374,Geeta Mishra,43,Tea Stall Franchise Owner,60000,5370.68,2025-01-15,monthly,increasing_expenses
+375,Farhan Chauhan,54,Laundry Dry-cleaner,60000,5721.57,2025-01-15,monthly,increasing_expenses
+376,Ramesh Malhotra,52,Laundry Dry-cleaner,30000,2717.73,2025-01-15,monthly,increasing_expenses
+377,Jatin Kapoor,50,Laundry Dry-cleaner,80000,7358.76,2025-01-15,monthly,increasing_expenses
+378,Pooja Sengupta,24,Laundry Dry-cleaner,40000,3771.67,2025-01-15,monthly,increasing_expenses
+379,Deepika Sengupta,56,General Provision Store Owner,80000,7356.48,2025-01-15,monthly,increasing_expenses
+380,Jyoti Gowda,31,Tea Stall Franchise Owner,25000,2224.47,2025-01-15,monthly,increasing_expenses
+381,Amit Chatterjee,57,Bakery Owner,25000,2252.37,2025-01-15,monthly,increasing_expenses
+382,Sunita Gupta,45,Bakery Owner,80000,6896.66,2025-01-15,monthly,increasing_expenses
+383,Vikram Sharma,24,Bakery Owner,50000,4882.09,2025-01-15,monthly,increasing_expenses
+384,Meera Deshmukh,57,General Provision Store Owner,50000,4597.29,2025-01-15,monthly,increasing_expenses
+385,Indira Reddy,44,Bakery Owner,80000,7801.93,2025-01-15,monthly,increasing_expenses
+386,Jatin Das,27,Tea Stall Franchise Owner,75000,6952.42,2025-01-15,monthly,increasing_expenses
+387,Kishore Yadav,23,Welding Workshop Owner,25000,2330.44,2025-01-15,monthly,increasing_expenses
+388,Neelam Mukherjee,25,Welding Workshop Owner,25000,2311.67,2025-01-15,monthly,increasing_expenses
+389,Jyoti Yadav,41,Tea Stall Franchise Owner,75000,6694.05,2025-01-15,monthly,increasing_expenses
+390,Eshwar Kulkarni,40,General Provision Store Owner,80000,7622.29,2025-01-15,monthly,increasing_expenses
+391,Ananya Kapoor,30,Tea Stall Franchise Owner,25000,2232.53,2025-01-15,monthly,increasing_expenses
+392,Sunita Shetty,50,Bakery Owner,25000,2348.19,2025-01-15,monthly,increasing_expenses
+393,Chirag Kulkarni,40,Welding Workshop Owner,80000,7312.01,2025-01-15,monthly,increasing_expenses
+394,Chirag Bhat,40,Welding Workshop Owner,25000,2301.4,2025-01-15,monthly,increasing_expenses
+395,Sanjay Shetty,37,Bakery Owner,60000,5308.3,2025-01-15,monthly,increasing_expenses
+396,Bina Yadav,31,General Provision Store Owner,80000,7030.18,2025-01-15,monthly,increasing_expenses
+397,Vikram Gowda,58,Tea Stall Franchise Owner,80000,7821.3,2025-01-15,monthly,increasing_expenses
+398,Geeta Mukherjee,32,Welding Workshop Owner,40000,3871.59,2025-01-15,monthly,increasing_expenses
+399,Ramesh Gowda,43,General Provision Store Owner,50000,4597.74,2025-01-15,monthly,increasing_expenses
+400,Rajesh Das,53,Laundry Dry-cleaner,75000,6581.14,2025-01-15,monthly,increasing_expenses
+401,Bharat Das,47,General Provision Store Owner,25000,2346.71,2025-01-15,monthly,increasing_expenses
+402,Ritu Pillai,55,General Provision Store Owner,25000,2431.84,2025-01-15,monthly,increasing_expenses
+403,Tushar Yadav,40,Laundry Dry-cleaner,40000,3741.13,2025-01-15,monthly,increasing_expenses
+404,Dinesh Bhat,54,Welding Workshop Owner,60000,5673.26,2025-01-15,monthly,increasing_expenses
+405,Gita Joshi,26,Welding Workshop Owner,75000,7188.59,2025-01-15,monthly,increasing_expenses
+406,Ananya Mishra,54,Bakery Owner,80000,6866.13,2025-01-15,monthly,increasing_expenses
+407,Sanjay Shetty,29,Laundry Dry-cleaner,30000,2700.07,2025-01-15,monthly,increasing_expenses
+408,Jatin Kapoor,29,Welding Workshop Owner,40000,3779.54,2025-01-15,monthly,increasing_expenses
+409,Aarav Nair,39,Welding Workshop Owner,75000,7181.73,2025-01-15,monthly,increasing_expenses
+410,Ramesh Mishra,55,Welding Workshop Owner,50000,4895.75,2025-01-15,monthly,increasing_expenses
+411,Kavita Rao,50,General Provision Store Owner,75000,6975.55,2025-01-15,monthly,increasing_expenses
+412,Zainab Patel,28,Welding Workshop Owner,50000,4331.04,2025-01-15,monthly,increasing_expenses
+413,Gita Rao,31,General Provision Store Owner,75000,6870.65,2025-01-15,monthly,increasing_expenses
+414,Rajesh Mishra,53,Laundry Dry-cleaner,25000,2393.99,2025-01-15,monthly,increasing_expenses
+415,Eshwar Verma,58,Laundry Dry-cleaner,40000,3622.7,2025-01-15,monthly,increasing_expenses
+416,Hema Gupta,26,General Provision Store Owner,50000,4568.86,2025-01-15,monthly,increasing_expenses
+417,Vikram Deshmukh,34,Welding Workshop Owner,60000,5624.25,2025-01-15,monthly,increasing_expenses
+418,Tushar Malhotra,27,Bakery Owner,80000,7009.36,2025-01-15,monthly,increasing_expenses
+419,Ritu Kulkarni,22,General Provision Store Owner,40000,3581.88,2025-01-15,monthly,increasing_expenses
+420,Pankaj Kapoor,37,Tea Stall Franchise Owner,30000,2875.18,2025-01-15,monthly,increasing_expenses
+421,Ritu Chopra,39,Daily Wage Construction Mason,30000,2611.5,2025-01-15,monthly,repeated_late_repayments
+422,Pankaj Pandey,35,Daily Wage Construction Mason,40000,3767.02,2025-01-15,monthly,repeated_late_repayments
+423,Naveen Sengupta,42,Daily Wage Construction Mason,30000,2639.07,2025-01-15,monthly,repeated_late_repayments
+424,Sanjay Das,53,Vegetable Cart Hawker,30000,2561.33,2025-01-15,monthly,repeated_late_repayments
+425,Ritu Naidu,43,Loading Laborer,50000,4742.86,2025-01-15,monthly,repeated_late_repayments
+426,Sunita Rao,31,Daily Wage Construction Mason,50000,4364.5,2025-01-15,monthly,repeated_late_repayments
+427,Pankaj Rao,23,Loading Laborer,25000,2412.89,2025-01-15,monthly,repeated_late_repayments
+428,Jatin Nair,33,Daily Wage Construction Mason,40000,3789.58,2025-01-15,monthly,repeated_late_repayments
+429,Chirag Deshmukh,32,Domestic Cleaning Contractor,40000,3676.59,2025-01-15,monthly,repeated_late_repayments
+430,Kavita Chatterjee,58,Domestic Cleaning Contractor,25000,2144.38,2025-01-15,monthly,repeated_late_repayments
+431,Ramesh Pillai,23,Loading Laborer,50000,4570.46,2025-01-15,monthly,repeated_late_repayments
+432,Bina Reddy,22,Loading Laborer,75000,6665.41,2025-01-15,monthly,repeated_late_repayments
+433,Harish Sengupta,24,Vegetable Cart Hawker,50000,4340.7,2025-01-15,monthly,repeated_late_repayments
+434,Pankaj Gupta,50,Domestic Cleaning Contractor,75000,7198.55,2025-01-15,monthly,repeated_late_repayments
+435,Divya Naidu,23,Street Food Cart Vendor,50000,4449.75,2025-01-15,monthly,repeated_late_repayments
+436,Usha Nair,47,Daily Wage Construction Mason,60000,5355.6,2025-01-15,monthly,repeated_late_repayments
+437,Neelam Verma,44,Vegetable Cart Hawker,50000,4603.15,2025-01-15,monthly,repeated_late_repayments
+438,Omkar Sengupta,43,Vegetable Cart Hawker,25000,2353.89,2025-01-15,monthly,repeated_late_repayments
+439,Geeta Naidu,39,Vegetable Cart Hawker,50000,4572.62,2025-01-15,monthly,repeated_late_repayments
+440,Preeti Pillai,29,Daily Wage Construction Mason,60000,5288.08,2025-01-15,monthly,repeated_late_repayments
+441,Pooja Verma,43,Loading Laborer,80000,7190.6,2025-01-15,monthly,repeated_late_repayments
+442,Imran Reddy,35,Loading Laborer,30000,2914.11,2025-01-15,monthly,repeated_late_repayments
+443,Sanjay Pillai,24,Vegetable Cart Hawker,40000,3892.5,2025-01-15,monthly,repeated_late_repayments
+444,Pooja Sengupta,57,Daily Wage Construction Mason,25000,2326.95,2025-01-15,monthly,repeated_late_repayments
+445,Yash Gupta,48,Domestic Cleaning Contractor,60000,5124.32,2025-01-15,monthly,repeated_late_repayments
+446,Lalit Chauhan,31,Daily Wage Construction Mason,75000,6762.38,2025-01-15,monthly,repeated_late_repayments
+447,Qadir Mehta,57,Loading Laborer,80000,7713.96,2025-01-15,monthly,repeated_late_repayments
+448,Meera Pillai,53,Vegetable Cart Hawker,80000,6815.13,2025-01-15,monthly,repeated_late_repayments
+449,Pooja Patel,25,Daily Wage Construction Mason,60000,5736.43,2025-01-15,monthly,repeated_late_repayments
+450,Amit Joshi,54,Loading Laborer,60000,5819.51,2025-01-15,monthly,repeated_late_repayments
+451,Preeti Kapoor,33,Vegetable Cart Hawker,30000,2771.44,2025-01-15,monthly,repeated_late_repayments
+452,Ganesh Chatterjee,33,Loading Laborer,50000,4891.46,2025-01-15,monthly,repeated_late_repayments
+453,Pankaj Naidu,33,Daily Wage Construction Mason,50000,4678.95,2025-01-15,monthly,repeated_late_repayments
+454,Jatin Nair,54,Loading Laborer,25000,2445.92,2025-01-15,monthly,repeated_late_repayments
+455,Neelam Bhat,50,Domestic Cleaning Contractor,75000,6378.38,2025-01-15,monthly,repeated_late_repayments
+456,Zainab Pandey,46,Domestic Cleaning Contractor,40000,3840.4,2025-01-15,monthly,repeated_late_repayments
+457,Eshwar Mishra,52,Street Food Cart Vendor,80000,7639.84,2025-01-15,monthly,repeated_late_repayments
+458,Jatin Deshmukh,40,Loading Laborer,80000,7567.67,2025-01-15,monthly,repeated_late_repayments
+459,Naveen Rao,52,Daily Wage Construction Mason,80000,7668.23,2025-01-15,monthly,repeated_late_repayments
+460,Wasim Das,32,Loading Laborer,80000,6880.05,2025-01-15,monthly,repeated_late_repayments
+461,Lalit Chatterjee,47,Street Food Cart Vendor,50000,4788.74,2025-01-15,monthly,repeated_late_repayments
+462,Madhav Chopra,27,Vegetable Cart Hawker,60000,5191.94,2025-01-15,monthly,repeated_late_repayments
+463,Omkar Khan,32,Street Food Cart Vendor,30000,2646.43,2025-01-15,monthly,repeated_late_repayments
+464,Tanvi Pandey,30,Daily Wage Construction Mason,25000,2171.36,2025-01-15,monthly,repeated_late_repayments
+465,Wasim Shetty,36,Street Food Cart Vendor,40000,3405.17,2025-01-15,monthly,repeated_late_repayments
+466,Chetan Das,25,Domestic Cleaning Contractor,40000,3731.0,2025-01-15,monthly,repeated_late_repayments
+467,Suresh Sharma,22,Domestic Cleaning Contractor,75000,7013.75,2025-01-15,monthly,repeated_late_repayments
+468,Aarav Sharma,58,Street Food Cart Vendor,30000,2730.58,2025-01-15,monthly,repeated_late_repayments
+469,Pankaj Gupta,33,Street Food Cart Vendor,75000,6553.18,2025-01-15,monthly,repeated_late_repayments
+470,Qadir Chatterjee,49,Daily Wage Construction Mason,40000,3654.14,2025-01-15,monthly,repeated_late_repayments
+471,Kishore Joshi,50,Home Tiffin Delivery,50000,4634.89,2025-01-15,monthly,micro_enterprise_growth
+472,Usha Naidu,42,Specialty Coffee Stall,80000,7497.58,2025-01-15,monthly,micro_enterprise_growth
+473,Farhan Kulkarni,22,Handmade Soap Maker,50000,4784.53,2025-01-15,monthly,micro_enterprise_growth
+474,Gita Chatterjee,26,Tailoring Academy Tutor,75000,6900.31,2025-01-15,monthly,micro_enterprise_growth
+475,Ganesh Khan,47,Organic Spice Packager,60000,5229.17,2025-01-15,monthly,micro_enterprise_growth
+476,Dinesh Malhotra,38,Home Tiffin Delivery,40000,3513.54,2025-01-15,monthly,micro_enterprise_growth
+477,Gita Deshmukh,24,Home Tiffin Delivery,40000,3515.6,2025-01-15,monthly,micro_enterprise_growth
+478,Bina Malhotra,33,Organic Spice Packager,75000,6424.24,2025-01-15,monthly,micro_enterprise_growth
+479,Qadir Malhotra,37,Specialty Coffee Stall,40000,3504.07,2025-01-15,monthly,micro_enterprise_growth
+480,Bina Shetty,30,Home Tiffin Delivery,25000,2232.09,2025-01-15,monthly,micro_enterprise_growth
+481,Amit Gowda,40,Specialty Coffee Stall,40000,3528.91,2025-01-15,monthly,micro_enterprise_growth
+482,Aarav Gowda,39,Tailoring Academy Tutor,50000,4266.69,2025-01-15,monthly,micro_enterprise_growth
+483,Rajesh Shetty,47,Home Tiffin Delivery,30000,2784.89,2025-01-15,monthly,micro_enterprise_growth
+484,Kavita Pandey,43,Specialty Coffee Stall,50000,4433.61,2025-01-15,monthly,micro_enterprise_growth
+485,Madhav Das,57,Home Tiffin Delivery,60000,5136.7,2025-01-15,monthly,micro_enterprise_growth
+486,Indira Chopra,48,Organic Spice Packager,30000,2677.42,2025-01-15,monthly,micro_enterprise_growth
+487,Yash Rao,23,Handmade Soap Maker,40000,3576.26,2025-01-15,monthly,micro_enterprise_growth
+488,Naveen Deshmukh,40,Home Tiffin Delivery,50000,4887.23,2025-01-15,monthly,micro_enterprise_growth
+489,Pankaj Patel,45,Organic Spice Packager,30000,2649.71,2025-01-15,monthly,micro_enterprise_growth
+490,Dinesh Kulkarni,25,Organic Spice Packager,30000,2937.59,2025-01-15,monthly,micro_enterprise_growth
+491,Omkar Pillai,56,Home Tiffin Delivery,75000,6512.17,2025-01-15,monthly,micro_enterprise_growth
+492,Dinesh Rao,33,Tailoring Academy Tutor,75000,7081.59,2025-01-15,monthly,micro_enterprise_growth
+493,Indira Chauhan,58,Specialty Coffee Stall,80000,7762.98,2025-01-15,monthly,micro_enterprise_growth
+494,Gita Naidu,35,Organic Spice Packager,80000,7233.62,2025-01-15,monthly,micro_enterprise_growth
+495,Gita Mehta,26,Handmade Soap Maker,80000,7321.23,2025-01-15,monthly,micro_enterprise_growth
+496,Deepika Sengupta,56,Specialty Coffee Stall,60000,5786.44,2025-01-15,monthly,micro_enterprise_growth
+497,Ritu Pandey,52,Home Tiffin Delivery,25000,2171.71,2025-01-15,monthly,micro_enterprise_growth
+498,Pankaj Malhotra,53,Organic Spice Packager,80000,7083.65,2025-01-15,monthly,micro_enterprise_growth
+499,Kiran Das,23,Tailoring Academy Tutor,30000,2879.31,2025-01-15,monthly,micro_enterprise_growth
+500,Ganesh Reddy,52,Home Tiffin Delivery,60000,5263.63,2025-01-15,monthly,micro_enterprise_growth

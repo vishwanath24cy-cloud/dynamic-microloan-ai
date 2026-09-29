@@ -37,7 +37,26 @@ def run():
         assert rec_c["stress_level"] == "HIGH"
         assert rec_c["persistent_stress"] is True
 
-        # 4. Summary
+        # 4. Live ML & Recommendation endpoints
+        res_rec = urllib.request.urlopen("http://127.0.0.1:8000/api/borrowers/3/recommendation")
+        rec_data = json.loads(res_rec.read().decode("utf-8"))
+        print(f"LIVE RECOMMENDATION B3: {rec_data['recommendation']} | Stress: {rec_data['stress_level']} | Review Reqd: {rec_data['lender_review_required']}")
+        assert rec_data["recommendation"] == "REVIEW_REQUIRED"
+        assert rec_data["lender_review_required"] is True
+        assert len(rec_data["top_factors"]) >= 2
+        assert "explanation" in rec_data
+
+        res_cf = urllib.request.urlopen("http://127.0.0.1:8000/api/borrowers/3/cashflow-prediction")
+        cf_data = json.loads(res_cf.read().decode("utf-8"))
+        print(f"LIVE CASHFLOW B3: Predicted Avail Cash = INR {cf_data['predicted_available_cash']}")
+        assert "predicted_available_cash" in cf_data
+
+        res_stress = urllib.request.urlopen("http://127.0.0.1:8000/api/borrowers/3/stress")
+        stress_data = json.loads(res_stress.read().decode("utf-8"))
+        print(f"LIVE STRESS B3: Level = {stress_data['stress_level']}")
+        assert stress_data["stress_level"] == "HIGH"
+
+        # 5. Summary
         res_s = urllib.request.urlopen("http://127.0.0.1:8000/api/dashboard/summary")
         summary = json.loads(res_s.read().decode("utf-8"))
         print("PORTFOLIO SUMMARY:", summary)

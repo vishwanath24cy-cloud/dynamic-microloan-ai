@@ -15,6 +15,14 @@ from app.schemas import (
     DashboardSummary,
 )
 from app.seed import seed_demo_data
+import sys
+from pathlib import Path
+
+BACKEND_DIR = Path(__file__).resolve().parent.parent.parent
+if str(BACKEND_DIR) not in sys.path:
+    sys.path.insert(0, str(BACKEND_DIR))
+
+from recommendation_engine import generate_recommendation, predict_cashflow, predict_stress
 
 router = APIRouter(prefix="/api", tags=["Borrowers & Financial Analytics"])
 
@@ -110,6 +118,41 @@ def get_borrower_recommendations(borrower_id: int, db: Session = Depends(get_db)
         .all()
     )
     return recommendations
+
+
+@router.get("/borrowers/{borrower_id}/cashflow-prediction")
+def get_live_cashflow_prediction(borrower_id: int):
+    """Predicts next-month income, expenses, and available cash using trained ML models."""
+    try:
+        return predict_cashflow(borrower_id)
+    except ValueError as ve:
+        raise HTTPException(status_code=404, detail=str(ve))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to generate cashflow prediction: {str(exc)}")
+
+
+@router.get("/borrowers/{borrower_id}/stress")
+def get_live_stress_prediction(borrower_id: int):
+    """Predicts repayment stress and evaluates persistent stress rules using ML."""
+    try:
+        return predict_stress(borrower_id)
+    except ValueError as ve:
+        raise HTTPException(status_code=404, detail=str(ve))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to evaluate repayment stress: {str(exc)}")
+
+
+@router.get("/borrowers/{borrower_id}/recommendation")
+def get_live_recommendation(borrower_id: int):
+    """Generates a dynamic repayment recommendation using the ML cash-flow & stress engine."""
+    try:
+        recommendation_data = generate_recommendation(borrower_id)
+        return recommendation_data
+    except ValueError as ve:
+        raise HTTPException(status_code=404, detail=str(ve))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to generate recommendation: {str(exc)}")
+
 
 
 @router.get("/dashboard/summary", response_model=DashboardSummary)

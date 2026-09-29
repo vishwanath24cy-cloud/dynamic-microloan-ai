@@ -1,0 +1,58 @@
+{
+  "feature_cols": [
+    "age",
+    "loan_amount",
+    "emi_amount",
+    "income_lag_1",
+    "income_lag_2",
+    "income_lag_3",
+    "expense_lag_1",
+    "expense_lag_2",
+    "expense_lag_3",
+    "available_cash_lag_1",
+    "income_roll_mean_3",
+    "income_roll_std_3",
+    "expense_roll_mean_3",
+    "expense_roll_std_3",
+    "month_sin",
+    "month_cos"
+  ],
+  "selected_income_model": "RandomForestRegressor",
+  "income_metrics": {
+    "MAE": 2400.31,
+    "RMSE": 3787.05,
+    "R2": 0.953
+  },
+  "selected_expense_model": "LinearRegression",
+  "expense_metrics": {
+    "MAE": 579.2,
+    "RMSE": 814.65,
+    "R2": 0.9947
+  },
+  "all_comparisons": {
+    "income": {
+      "LinearRegression": {
+        "MAE": 2869.49,
+        "RMSE": 4273.03,
+        "R2": 0.9401
+      },
+      "RandomForestRegressor": {
+        "MAE": 2400.31,
+        "RMSE": 3787.05,
+        "R2": 0.953
+      }
+    },
+    "expenses": {
+      "LinearRegression": {
+        "MAE": 579.2,
+        "RMSE": 814.65,
+        "R2": 0.9947
+      },
+      "RandomForestRegressor": {
+        "MAE": 579.57,
+        "RMSE": 858.21,
+        "R2": 0.9942
+      }
+    }
+  }
+}
